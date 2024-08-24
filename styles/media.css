@@ -1,0 +1,13 @@
+/* main {display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+} */
+
+
+@media screen and (min-width: 600px) {
+    .recipe__title{
+        font-size: 2.5rem;
+        color: red;
+    }
+}

@@ -1,0 +1,206 @@
+.recipe {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 0 0 40px;
+}
+
+.recipe__description {
+  padding: 40px 32px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* section */
+
+.recipe__preparation {
+  margin: 0 32px;
+  padding: 24px;
+  background-color: var(--rose-50);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.recipe__section{
+  margin: 0 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* list */
+
+.recipe__list--preparation {
+  margin: 0;
+  padding: 0;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-left: 8px;
+  
+}
+
+.recipe__list-item--preparation {
+  font-size: 1rem;
+  line-height: 150%;
+  font-family: "Outfit", sans-serif;
+  color: var(--stone-600);
+  list-style-type: none;
+  list-style-position: outside;
+
+}
+
+.recipe__list-itemPreparation{
+  display: flex;
+  align-items: center; 
+}
+
+.recipe__list-itemPreparation::before {
+  content: "•"; /* Add custom bullet */
+  font-size: 0.9rem;
+  margin-right: 28px;
+  color: var(--stone-600);
+}
+
+.recipe__list-itemPreparation::before {
+  color: var(--rose-800);
+}
+
+
+.recipe__list-itemBoldPreparation {
+  font-weight: 700;
+  align-self: flex-start;
+}
+
+
+
+
+.recipe__list {
+  margin: 0;
+  padding: 0;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-left: 8px;
+}
+
+.recipe__list-item {
+  font-size: 1rem;
+  line-height: 150%;
+  font-family: "Outfit", sans-serif;
+  color: var(--stone-600);
+  list-style-type: none;
+  list-style-position: outside;
+}
+
+.recipe__list-item{
+  display: flex;
+  /* align-items: center;  */
+}
+
+
+.recipe__list-item::before {
+  content: "•"; /* Add custom bullet */
+  font-size: 0.9rem;
+  margin-right: 28px;
+  color: var(--stone-600);
+}
+
+.recipe__list-itemBold {
+  font-weight: 700;
+  /* align-self: flex-start; */
+}
+
+
+.recipe__list-itemBold {
+  font-weight: 700;
+}
+
+/* titles */
+
+.recipe__title {
+  color: var(--stone-900);
+  font-family: "Young Serif", sans-serif;
+  font-size: 2.25rem;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+.recipe__subheading {
+  color: var(--brown-800);
+  font-family: "Young Serif", sans-serif;
+  font-size: 1.75rem;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+.recipe__subheading--preparation {
+  color: var(--rose-800);
+  font-family: "Outfit", sans-serif;
+  font-size: 1.25rem;
+  line-height: 100%;
+  font-weight: 600;
+}
+
+/* Text */
+
+.recipe__text {
+  font-size: 1rem;
+  line-height: 150%;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: var(--stone-600);
+  letter-spacing: 0px;
+}
+
+.recipe__text--bold {
+  font-weight: 700;
+}
+
+
+
+/* separator */
+
+.recipe__separator{
+  border: 1px solid var(--stone-150);
+  margin: 0 32px;
+}
+
+/* table */
+
+.recipe__table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.recipe__table-cell{
+  font-size: 1rem;
+  line-height: 150%;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: var(--stone-600);
+  border-bottom: 1px solid var(--stone-150);
+  padding: 12px 0;
+}
+
+.recipe__table-row:last-child .recipe__table-cell  {
+  border-bottom: 0px;
+  padding-bottom: 0;
+}
+
+.recipe__table-cell--label{
+  padding-left: 32px;
+}
+
+
+.recipe__table-cell--value{
+  color: var(--brown-800);
+  font-weight: 700;
+  width: 45%;
+}

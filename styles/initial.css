@@ -1,0 +1,43 @@
+:root {
+  --rose-800: #7a284e;
+  --rose-50: #fff7fb;
+  --stone-900: #312e2c;
+  --stone-600: #5f564d;
+  --stone-150: #e3ddd7;
+  --stone-100: #f3e5d7;
+  --brown-800: #854632;
+  --white: #ffffff;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+  background-color: var(--stone-100);
+  height: 100vh;
+  width: 100vw;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto; 
+}
+
+/* main {
+  width: 100vw;
+} */

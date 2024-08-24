@@ -213,7 +213,7 @@
   font-weight: 400;
   color: var(--stone-600);
   border-bottom: 1px solid var(--stone-150);
-  padding: 12px 0;
+  padding: 11.5px 0;
 }
 
 .recipe__table-row:first-child .recipe__table-cell  {

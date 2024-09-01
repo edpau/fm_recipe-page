@@ -42,6 +42,10 @@
   padding-left: 20px;
 }
 
+.recipe__list-item:not(:first-child) {
+  margin-top: 8px;
+}
+
 .recipe__list-item::marker {
   font-size: 0.8rem;
   color: var(--brown-800);

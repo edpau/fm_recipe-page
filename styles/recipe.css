@@ -2,152 +2,58 @@
   background-color: var(--white);
   display: flex;
   flex-direction: column;
-  gap: 32px;
-  padding: 0 0 40px;
 }
 
-.recipe__description {
-  padding: 40px 32px 0;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
+.recipe__details {
+  padding: 40px 32px;
+}
+
+.recipe__details > *:not(:first-child) {
+  margin-top: 32px;
 }
 
 /* section */
 
+.recipe__description {
+  display: grid;
+  gap: 24px;
+}
+
 .recipe__preparation {
-  margin: 0 32px;
   padding: 24px;
   background-color: var(--rose-50);
   border-radius: 12px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: 16px;
 }
 
-.recipe__section{
-  margin: 0 32px;
-  display: flex;
-  flex-direction: column;
+.recipe__section {
+  display: grid;
   gap: 24px;
 }
 
 /* list */
 
-.recipe__list--preparation {
-  margin: 0;
-  padding: 0;
-  padding-left: 0px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  padding-left: 8px;
-  
-}
-
-.recipe__list-item--preparation {
-  font-size: 1rem;
-  line-height: 150%;
-  font-family: "Outfit", sans-serif;
-  color: var(--stone-600);
-  color: red;
-  list-style-type: none;
-  list-style-position: outside;
-
-}
-
-.recipe__list-itemPreparation{
-  display: flex;
-  align-items: center; 
-}
-
-.recipe__list-itemPreparation::before {
-  content: "•"; /* Add custom bullet */
-  font-size: 0.9rem;
-  margin-right: 28px;
-  color: var(--rose-800);
-}
-
-.recipe__list-itemPreparation__details{
-  color: var(--stone-600);
-}
-
-
-.recipe__list-itemBoldPreparation {
-  font-weight: 700;
-  align-self: flex-start;
-}
-
 .recipe__list {
-  margin: 0;
-  padding: 0;
-  padding-left: 0px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  padding-left: 8px;
+  padding-left: 20px;
 }
 
 .recipe__list-item {
-  font-size: 1rem;
-  line-height: 150%;
-  font-family: "Outfit", sans-serif;
-  color: var(--stone-600);
-  list-style-type: none;
-  list-style-position: outside;
+  padding-left: 20px;
 }
 
-.recipe__list-item{
-  display: flex;
-  /* align-items: center;  */
-}
-
-.recipe__list-item::before {
-  content: "•"; /* Add custom bullet */
-  font-size: 0.9rem;
-  margin-right: 27.25px;
-  color: var(--stone-600);
-}
-
-.recipe__list-itemBold {
-  font-weight: 700;
-}
-
-.recipe__list-itemBold {
-  font-weight: 700;
-}
-
-/* number list */
-
-.recipe__listNum{
-  counter-reset: list-item;
-}
-
-.recipe__list-itemNum {
-  display: flex;
-  counter-increment: list-item;
-  font-size: 1rem;
-  line-height: 150%;
-  font-family: "Outfit", sans-serif;
-  color: var(--stone-600);
-  list-style-type: none;
-  list-style-position: outside;
-}
-
-
-.recipe__list-itemNum::before {
-  content: counter(list-item)"."; /* Add custom bullet */
-  margin-right: 22px;
+.recipe__list-item::marker {
+  font-size: 0.8rem;
   color: var(--brown-800);
-  font-family: "Outfit", sans-serif;
-  font-size: 1rem;
-  font-weight: 700;
-  line-height: 150%;
 }
 
-.recipe__list-itemNum{
-  display: flex;
-  /* align-items: center;  */
+.recipe__list-item--rose::marker {
+  color: var(--rose-800);
+}
+
+.recipe__list-item--num::marker {
+  font-size: 1em;
+  font-weight: 700;
 }
 
 /* titles */
@@ -191,23 +97,20 @@
   font-weight: 700;
 }
 
-
-
 /* separator */
 
-.recipe__separator{
+.recipe__separator {
   border: 1px solid var(--stone-150);
-  margin: 0 32px;
 }
 
 /* table */
 
-.recipe__table{
+.recipe__table {
   width: 100%;
   border-collapse: collapse;
 }
 
-.recipe__table-cell{
+.recipe__table-cell {
   font-size: 1rem;
   line-height: 150%;
   font-family: "Outfit", sans-serif;
@@ -217,21 +120,21 @@
   padding: 11.5px 0;
 }
 
-.recipe__table-row:first-child .recipe__table-cell  {
+.recipe__table-row:first-child .recipe__table-cell {
   padding-top: 0;
 }
 
-.recipe__table-row:last-child .recipe__table-cell  {
+.recipe__table-row:last-child .recipe__table-cell {
   border-bottom: 0px;
   padding-bottom: 0;
 }
 
-.recipe__table-cell--label{
+.recipe__table-cell--label {
   padding-left: 32px;
+  text-align: left;
 }
 
-
-.recipe__table-cell--value{
+.recipe__table-cell--value {
   color: var(--brown-800);
   font-weight: 700;
   width: 48%;

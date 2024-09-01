@@ -3,19 +3,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
   }
 
   .recipe {
-    margin: 128px 0;
-    padding-top: 40px;
+    margin: 128px 0px;
+    padding: 40px;
     width: 80%;
     max-width: 736px;
     border-radius: 24px;
   }
 
-  .recipe__header {
-    padding: 0 40px;
+  .recipe__details {
+    margin-top: 32px;
+    padding: 0;
   }
 
   .recipe__image {
@@ -25,24 +25,4 @@
   .recipe__title {
     font-size: 2.5rem;
   }
-
-  .recipe__description {
-    padding: 40px 0 0;
-  }
-
-  .recipe__preparation{
-    margin: 0 40px;
-  }
-
-  .recipe__section{
-    margin: 0 40px;
-  }
-
-}
-
-@media screen and (min-width: 1440px) {
-  .recipe {
-    
-  }
-
 }

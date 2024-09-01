@@ -14,6 +14,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -67,8 +68,9 @@ But I sacrifice the accessibility for screen reader on the list.
 - [Everything You Need to Know About the Gap After the List Marker](https://css-tricks.com/everything-you-need-to-know-about-the-gap-after-the-list-marker/) - This is an amazing article discussing how to control the gap after the list-marker.
 
 
-
-
 ## Author
 - Website - [Edward Pau](https://www.edpau.me)
 - Frontend Mentor - [@edpau](https://www.frontendmentor.io/profile/edpau)
+
+## Acknowledgments
+Thank you, Grace Snow, for reviewing my code and helping me improve it.

@@ -53,7 +53,7 @@ I matched the Figma design below, I adjusted the gap after the list Marker and i
 
 <img src="./assets/images/bulletFigma.png" alt="Screenshot" width="300"/>
 
-But I sacrifice the accessibility for screen reader on the list. 
+But I sacrifice the accessibility for screen reader on the list. (Code was refactored to keep it simple)
 
 
 
